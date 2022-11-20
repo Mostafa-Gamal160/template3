@@ -471,6 +471,7 @@ ul {
 .articles .box img {
   max-width: 100%;
   width: 100%;
+  height: 192px;
 }
 .articles .box .content {
   padding: 20px;
