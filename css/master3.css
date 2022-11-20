@@ -470,8 +470,7 @@ ul {
 }
 .articles .box img {
   max-width: 100%;
-  width: 255px;
-  height: 180px;
+  width: 100%;
 }
 .articles .box .content {
   padding: 20px;
@@ -1486,7 +1485,7 @@ ul {
   font-weight: 900;
   color: var(--main-color);
 }
-.pricing .box .footer a {
+.pricing .box .end a {
   display: block;
   margin: 30px auto 40px;
   width: fit-content;
@@ -1505,7 +1504,7 @@ ul {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
-.pricing .box .footer a:hover {
+.pricing .box .end a:hover {
   background-color: var(--main-color);
   color: white;
 }
@@ -1783,6 +1782,10 @@ ul {
   height: 50px;
   font-size: 20px;
   transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
 }
 .footer .box .social .facebook:hover {
   background-color: #1877f2;
@@ -1800,6 +1803,10 @@ ul {
 .footer .box .links li {
   padding: 15px 0;
   transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
 }
 .footer .box .links li:not(:last-child) {
   border-bottom: 1px solid #444;
@@ -1813,6 +1820,10 @@ ul {
 .footer .box .links li a {
   color: #b9b9b9;
   transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
 }
 .footer .box .links li a::before {
   font-family: "Font Awesome 5 Free";
